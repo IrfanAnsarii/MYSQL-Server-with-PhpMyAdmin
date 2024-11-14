@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'leafo/scssphp' => array(
+            'pretty_version' => 'v0.8.2',
+            'version' => '0.8.2.0',
+            'reference' => '1b168bfee60889547e1fe55b9afdf055f6d3c58d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../leafo/scssphp',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'scssphp/scssphp' => array(
+            'pretty_version' => 'v1.12.1',
+            'version' => '1.12.1.0',
+            'reference' => '394ed1e960138710a60d035c1a85d43d0bf0faeb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../scssphp/scssphp',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
